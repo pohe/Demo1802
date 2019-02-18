@@ -54,5 +54,12 @@ namespace Sandbox
             _weight = weight;
         }
 
+        public void PrintAllInformation()
+        {
+            Console.WriteLine($"Name {_name} højde { _height} vægt { _weight}");
+        }
+
+
+
     }
 }
