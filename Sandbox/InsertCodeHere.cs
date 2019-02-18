@@ -8,6 +8,15 @@ namespace Sandbox
         {
             // The FIRST line of code should be BELOW this line
 
+            Calculator myCalculator = new Calculator();
+            int t1 = 100;
+            int t2 = 80;
+
+            int sum = myCalculator.Add(t1, t2);
+            double  minusResult = myCalculator.Minus(t1, t2);
+            Console.WriteLine($"Summer er {sum}");
+            Console.WriteLine($"Differencen er {minusResult}");
+
             //Console.WriteLine("Hello world!");
 
             Human h1 = new Human(); //laver object, kalder constructor
